@@ -1,121 +1,63 @@
-# ⚡ TextMorph – Advanced AI Text Processing Platform
+# Infosys-Springboard
+# Milestone 3 – Advanced NLP Features & Model Tuning
 
-TextMorph is an advanced AI-powered platform designed for intelligent text processing.  
-It provides **multi-level summarization, paraphrasing, dataset augmentation, and model fine-tuning** with secure authentication and an interactive dashboard.
+## Description
+In this milestone, we extended the Streamlit application by integrating advanced Natural Language Processing capabilities. The platform now includes an AI-powered Summarizer, Paraphrasing Engine, Dataset Augmentation module, and a Model Fine-Tuning dashboard. Additionally, the system maintains secure OTP authentication, an interactive Readability Dashboard, and improved UI/UX for better usability.
 
-The system integrates **modern NLP models with a secure OTP-based authentication system and a user-friendly interface built using Streamlit.**
+## Features Implemented
 
----
-
-# 🚀 Features
-
-## 📝 Advanced Summarizer
-TextMorph includes an AI-powered summarization engine capable of generating concise summaries from long documents.
-
-Features:
-- Multi-level summaries (Short, Medium, Long)
-- Multiple transformer models
-- Multilingual output
+### Advanced Summarizer
+- Multi-level summarization (Short, Medium, Long)
+- Multiple transformer models (FLAN-T5, BART, Pegasus)
+- Multilingual output support
 - File upload support (TXT / PDF)
-- Word count comparison
 
-Supported Models:
-- FLAN-T5
-- BART
-- Pegasus
-
----
-
-## 🔄 Paraphrase Engine
-The paraphrasing module rewrites text while preserving the original meaning.
-
-Capabilities:
-- Style control
-- Complexity adjustment
+### Paraphrase Engine
+- AI-powered sentence rewriting
+- Multiple styles (Simplification, Formalization, Creative)
+- Adjustable complexity levels
 - Multilingual paraphrasing
-- File input support
-- AI-powered rewriting
 
-Available Styles:
-- Simplification
-- Formalization
-- Creative rewriting
-
----
-
-## 🧪 Dataset Augmentation
-TextMorph includes a dataset generation tool useful for training NLP models.
-
-Features:
-- Automatic paraphrase generation
-- Automatic summary generation
+### Dataset Augmentation
+- Generate paraphrased or summarized datasets
 - Batch paragraph processing
-- Dataset export as CSV
-- Training dataset preview
+- Export generated datasets as CSV
+- Interactive dataset preview
 
-This module helps in creating **high-quality training datasets for NLP models.**
-
----
-
-## ⚙ Model Fine-Tuning
-The platform includes a simulated fine-tuning dashboard for training models on custom datasets.
-
-Configuration Options:
-- Model Architecture
-- Epochs
-- Learning Rate
-- Batch Size
-- Quantization
-- Dropout
-
-Training Dashboard Includes:
+### Model Fine-Tuning
+- Configure model training parameters
+- Adjustable epochs, learning rate, batch size, dropout
+- Quantization options (FP16, 8-bit, 4-bit)
 - Training progress visualization
-- Loss curves
-- Accuracy metrics
-- ROUGE and BLEU evaluation scores
+- Dynamic training metrics and loss curves
 
----
-
-## 🔐 OTP Authentication System
-TextMorph implements secure authentication to protect user access.
-
-Security Features:
-- OTP-based password reset
+### Security & Authentication
+- Secure OTP-based authentication
+- Password hashing with bcrypt
 - Rate-limited login attempts
-- Password hashing using bcrypt
-- Email verification
-- Secure session handling
+- Password reset support
 
----
+### Readability Dashboard
+- Text readability analysis
+- Metrics such as:
+  - Flesch Reading Ease
+  - Flesch-Kincaid Grade
+  - SMOG Index
+  - Gunning Fog Index
+  - Coleman-Liau Index
+- Visual gauge charts using Plotly
 
-## 📊 Readability Dashboard
-The readability analyzer evaluates text complexity using standard linguistic metrics.
-
-Metrics Included:
-- Flesch Reading Ease
-- Flesch-Kincaid Grade
-- SMOG Index
-- Gunning Fog Index
-- Coleman-Liau Index
-
-The dashboard provides visual gauges to represent readability levels.
-
----
-
-## 🎨 Improved UI / UX
-The system includes a modern interface designed for better usability.
-
-UI Highlights:
-- Neon-themed interface
+### Improved UI/UX
+- Neon-themed modern interface
 - Interactive dashboards
-- Activity history viewer
-- File upload support
-- Dataset inspection panels
-- Responsive layout
+- Activity history tracking
+- Enhanced navigation and layout
 
-The UI is built using **Streamlit and Plotly for data visualization.**
+## How to Run
 
----
+1. Install dependencies
+2. Run the Streamlit application
+3. Open the local URL displayed in the terminal.
 
 # Screenshots
 <img width="1353" height="625" alt="Screenshot 2026-03-07 195902" src="https://github.com/user-attachments/assets/6da16a29-408f-4cb1-95f4-20893256ce43" />
